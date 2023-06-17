@@ -28,7 +28,7 @@ public:
     void setPricey(double pricey);
 };
 
-class Library : public Book
+class Library
 {
 private:
     std::vector<Book*> bookList;
