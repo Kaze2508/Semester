@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Book">
+    <Position X="9.5" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABCAAAAAQAAABAAAAAAAgAAAEAAAAAIAABQAAAAAA=</HashCode>
+      <FileName>Semester.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Library">
+    <Position X="9.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAAAAAAAAAAgAAAAABAACAAAABAAgAAAAAAAAAA=</HashCode>
+      <FileName>Semester.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Didatic">
+    <Position X="7.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQBCAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Semester.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Reference">
+    <Position X="11.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAACAAAAAAAAAAAAAIAAAAAEAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Semester.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
