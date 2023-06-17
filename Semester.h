@@ -39,7 +39,6 @@ public:
     double sumReference();
     void minTax();
     void searchByPublisher();
-
 };
 
 
@@ -51,6 +50,8 @@ public:
     Didatic(std::string BookID, std::string BookName, std::string publisher, int quantiny, double price, int tinhTrang);
     double pricey() override;
     void display() override;
+    int getStatus();
+    void setStatus(int status);
 };
 
 class Reference : public Book 
@@ -61,4 +62,6 @@ public:
     Reference(std::string BookID, std::string BookName, std::string publisher, int quantiny, double price, double tienThue);
     double pricey() override;
     void display() override;
+    double getRent();
+    void setRent(double rent);
 };

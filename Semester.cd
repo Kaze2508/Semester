@@ -17,14 +17,14 @@
   <Class Name="Didatic">
     <Position X="11.5" Y="1.25" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAQBCAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>AAQBCAAAAAAAAAAAAAAAAAAAAAEABEAAAAAAAAAAAAA=</HashCode>
       <FileName>Semester.h</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="Reference">
-    <Position X="11.5" Y="3.5" Width="1.5" />
+    <Position X="11.5" Y="3.75" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAABAACAAAAAAAAAAAAAIAAAAAEAAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>AAABAACAACAAAgAAAAAAIAAAAAEAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Semester.h</FileName>
     </TypeIdentifier>
   </Class>

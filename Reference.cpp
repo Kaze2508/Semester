@@ -17,3 +17,13 @@ void Reference::display()
     std::cout << "Tien thue: " << rent << std::endl;
     std::cout << "Thanh tien: " << pricey() << std::endl;
 }
+
+double Reference::getRent() 
+{
+    return rent;
+}
+
+void Reference::setRent(double rent)
+{
+    this->rent = rent;
+}
