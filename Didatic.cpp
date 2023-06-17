@@ -1,7 +1,7 @@
 #include <iostream>
 #include "Semester.h"
 
-Didatic::Didatic(std::string BookID, std::string BookName, std::string publisher, int quantiny, double price, int tinhTrang) : Book(BookID, BookName, publisher, quantiny, price) 
+Didatic::Didatic(std::string BookID, std::string BookName, std::string publisher, int quantiny, double price, int status) : Book(BookID, BookName, publisher, quantiny, price) 
 {
     this->status = status;
 }

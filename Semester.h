@@ -47,7 +47,7 @@ class Didatic : public Book
 private:
     int status;
 public:
-    Didatic(std::string BookID, std::string BookName, std::string publisher, int quantiny, double price, int tinhTrang);
+    Didatic(std::string BookID, std::string BookName, std::string publisher, int quantiny, double price, int status);
     double pricey() override;
     void display() override;
     int getStatus();
@@ -59,7 +59,7 @@ class Reference : public Book
 private:
     double rent;
 public:
-    Reference(std::string BookID, std::string BookName, std::string publisher, int quantiny, double price, double tienThue);
+    Reference(std::string BookID, std::string BookName, std::string publisher, int quantiny, double price, double rent);
     double pricey() override;
     void display() override;
     double getRent();

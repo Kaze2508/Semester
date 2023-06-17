@@ -1,7 +1,7 @@
 #include <iostream>
 #include "Semester.h"
 
-Reference::Reference(std::string BookID, std::string BookName, std::string publisher, int quantiny, double price, double tienThue) : Book(BookID, BookName, publisher, quantiny, price) 
+Reference::Reference(std::string BookID, std::string BookName, std::string publisher, int quantiny, double price, double rent) : Book(BookID, BookName, publisher, quantiny, price) 
 {
     this->rent = rent;
 }
