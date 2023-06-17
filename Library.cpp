@@ -78,25 +78,25 @@ double Library::sumReference()
 
 void Library::minTax() 
 {
-    double minThue = DBL_MAX;
+    double minTax = DBL_MAX;
     for (int i = 0; i < bookList.size(); i++) 
     {
         if (dynamic_cast<Reference*>(bookList[i]) != nullptr) 
         { 
             Reference* tk = dynamic_cast<Reference*>(bookList[i]); 
-            if (tk->pricey() < minThue) 
+            if (tk->pricey() < minTax) 
             { 
-                minThue = tk->pricey(); 
+                minTax = tk->pricey(); 
             }
         }
     }
-    std::cout << "Cac sach tham khao co tien thue nho nhat la: " << minThue << std::endl;
+    std::cout << "Cac sach tham khao co tien thue nho nhat la: " << minTax << std::endl;
     for (int i = 0; i < bookList.size(); i++) 
     {
         if (dynamic_cast<Reference*>(bookList[i]) != nullptr) 
         {
             Reference* tk = dynamic_cast<Reference*>(bookList[i]); 
-            if (tk->pricey() == minThue) 
+            if (tk->pricey() == minTax) 
             { 
                 tk->display(); 
             }
@@ -115,7 +115,7 @@ void Library::searchByPublisher()
         if (dynamic_cast<Didatic*>(bookList[i]) != nullptr)
         { 
             Didatic* gk = dynamic_cast<Didatic*>(bookList[i]); 
-            if (gk->plb() == publisher)
+            if (gk->getPublisher() == publisher)
             {
                 gk->display();
             }

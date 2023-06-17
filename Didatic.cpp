@@ -24,3 +24,13 @@ void Didatic::display()
     std::cout << "Tinh trang: " << (status == 0 ? "Cu" : "Moi") << std::endl;
     std::cout << "Thanh tien: " << pricey() << std::endl;
 }
+
+int Didatic::getStatus() 
+{
+    return status;
+}
+
+// A method to set the condition of a textbook
+void setTinhTrang(int tinhTrang) {
+    this->tinhTrang = tinhTrang; // assign the parameter to the attribute
+}

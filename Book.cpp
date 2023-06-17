@@ -41,37 +41,32 @@ std::string Book::getBookName()
     return BookName;
 }
 
-// A method to set the book name of a book
-void setTenSach(std::string tenSach) {
-    this->tenSach = tenSach; // assign the parameter to the attribute
+void Book::setBookName(std::string BookName) 
+{
+    this->BookName = BookName;
 }
 
-// A method to get the publisher name of a book
-std::string getNhaXuatBan() {
-    return nhaXuatBan; // return the publisher name
+void Book::setPublisher(std::string publisher)
+{
+    this->publisher = publisher;
 }
 
-// A method to set the publisher name of a book
-void setNhaXuatBan(std::string nhaXuatBan) {
-    this->nhaXuatBan = nhaXuatBan; // assign the parameter to the attribute
+int Book::getQuantiny()
+{
+    return quantiny;
 }
 
-// A method to get the quantity of a book
-int getSoLuong() {
-    return soLuong; // return the quantity
+void Book::setQuantiny(int quantiny)
+{
+    this->quantiny = quantiny;
 }
 
-// A method to set the quantity of a book
-void setSoLuong(int soLuong) {
-    this->soLuong = soLuong; // assign the parameter to the attribute
+double Book::getPricey()
+{
+    return price;
 }
 
-// A method to get the unit price of a book
-double getDonGia() {
-    return donGia; // return the unit price
-}
-
-// A method to set the unit price of a book
-void setDonGia(double donGia) {
-    this->donGia = donGia; // assign the parameter to the attribute
+void Book::setPricey(double price)
+{
+    this->price = price;
 }
